@@ -34,7 +34,7 @@ A clean, terminal-inspired desktop theme for [Playnite](https://playnite.link/) 
 
 ### Method 1: Using `.pthm` Package (Recommended)
 
-1. Download the latest `PlayniteTUI_*.pthm` file from the [Releases](https://github.com/icymarsh/playnite-tui/releases) section.
+1. Download the latest `PlayniteTUI_*.pthm` file from the [Releases](https://github.com/icymarshm47/playnite-tui/releases) section.
 2. Drag and drop the `.pthm` file into the Playnite window (or double-click it while Playnite is installed).
 3. Confirm installation and restart Playnite.
 4. Go to **Settings** (`F4`) ➔ **Appearance** ➔ **General** ➔ select **playnite-tui**.
@@ -46,7 +46,7 @@ A clean, terminal-inspired desktop theme for [Playnite](https://playnite.link/) 
    - **Portable version:** `<PlayniteDirectory>\Themes\Desktop\`
 2. Clone this repository:
    ```bash
-   git clone https://github.com/icymarsh/playnite-tui.git PlayniteTUI
+   git clone https://github.com/icymarshm47/playnite-tui.git PlayniteTUI
    ```
 3. Restart Playnite and select **playnite-tui** in **Settings ➔ Appearance ➔ General**.
 

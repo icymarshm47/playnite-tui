@@ -1,0 +1,86 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Typography -->
+    <sys:Double x:Key="FontSizeSmall">11</sys:Double>
+    <sys:Double x:Key="FontSize">13</sys:Double>
+    <sys:Double x:Key="FontSizeLarge">15</sys:Double>
+    <sys:Double x:Key="FontSizeLarger">18</sys:Double>
+    <sys:Double x:Key="FontSizeLargest">24</sys:Double>
+    <FontFamily x:Key="FontFamily">Consolas, Cascadia Mono, DM Mono, Lucida Console, Courier New, monospace</FontFamily>
+    <FontFamily x:Key="MonospaceFontFamily">Consolas, Cascadia Mono, DM Mono, Lucida Console, Courier New, monospace</FontFamily>
+    
+    <!-- Geometry -->
+    <Thickness x:Key="PopupBorderThickness">1</Thickness>
+    <Thickness x:Key="ControlBorderThickness">1</Thickness>
+    <sys:Double x:Key="EllipseBorderThickness">1</sys:Double>
+    <CornerRadius x:Key="ControlCornerRadius">0</CornerRadius>
+    <Thickness x:Key="SidebarItemPadding">8,10,8,10</Thickness>
+
+    <!-- Colors: Exact system24 / discord-tui palette -->
+    <Color x:Key="BlackColor">#FF141414</Color>
+    <Color x:Key="WhiteColor">#FFDEDEDE</Color>
+    <Color x:Key="TextColor">#FFBEBEBE</Color>
+    <Color x:Key="TextColorDarker">#FF808080</Color>
+    <Color x:Key="TextColorDark">#FF141414</Color>
+    <Color x:Key="MainColor">#FF1D1D1D</Color>
+    <Color x:Key="MainColorDark">#FF141414</Color>
+    <Color x:Key="HoverColor">#FFB396E8</Color>
+    <Color x:Key="GlyphColor">#FFB396E8</Color>
+    <Color x:Key="HighlightGlyphColor">#FFB396E8</Color>
+    <Color x:Key="PopupBackgroundColor">#FF1D1D1D</Color>
+    <Color x:Key="PopupBorderColor">#FF303030</Color>
+    <Color x:Key="BackgroundToneColor">#FF1D1D1D</Color>
+    <Color x:Key="GridItemBackgroundColor">#FF1D1D1D</Color>
+    <Color x:Key="PanelSeparatorColor">#FF303030</Color>
+    <Color x:Key="WindowPanelSeparatorColor">#FF303030</Color>
+    <Color x:Key="DataChangeNotifColor">#FFE0AE57</Color>
+
+    <!-- Accent shades -->
+    <Color x:Key="PurpleColor">#FFB396E8</Color>
+    <Color x:Key="PurpleHoverColor">#FF9577C7</Color>
+    <Color x:Key="PurplePressedColor">#FF775AA6</Color>
+    <Color x:Key="PinkColor">#FFE586A5</Color>
+    <Color x:Key="CyanColor">#FF1DBEC5</Color>
+    <Color x:Key="YellowColor">#FFE0AE57</Color>
+    <Color x:Key="GreenColor">#FF5ABF8D</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="WhiteBrush" Color="{DynamicResource WhiteColor}" />
+    <SolidColorBrush x:Key="BlackBrush" Color="{DynamicResource BlackColor}" />
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="#FF262626" />
+    <SolidColorBrush x:Key="TextBrush" Color="{DynamicResource TextColor}" />
+    <SolidColorBrush x:Key="TextBrushDarker" Color="{DynamicResource TextColorDarker}" />
+    <SolidColorBrush x:Key="TextBrushDark" Color="{DynamicResource TextColorDark}" />
+    <SolidColorBrush x:Key="NormalBrush" Color="{DynamicResource MainColor}" />
+    <SolidColorBrush x:Key="NormalBrushDark" Color="{DynamicResource MainColorDark}" />
+    <SolidColorBrush x:Key="NormalBorderBrush" Color="{DynamicResource PanelSeparatorColor}" />
+    <SolidColorBrush x:Key="HoverBrush" Color="#FF282828" />
+    <SolidColorBrush x:Key="GlyphBrush" Color="{DynamicResource GlyphColor}" />
+    <SolidColorBrush x:Key="HighlightGlyphBrush" Color="{DynamicResource HighlightGlyphColor}" />
+    <SolidColorBrush x:Key="PopupBorderBrush" Color="{DynamicResource PopupBorderColor}" />
+    <SolidColorBrush x:Key="TooltipBackgroundBrush" Color="#FF1D1D1D" />
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="#FF262626" />
+    <SolidColorBrush x:Key="GridItemBackgroundBrush" Color="{DynamicResource GridItemBackgroundColor}" />
+    <SolidColorBrush x:Key="PanelSeparatorBrush" Color="{DynamicResource PanelSeparatorColor}" />
+    <SolidColorBrush x:Key="WindowPanelSeparatorBrush" Color="{DynamicResource WindowPanelSeparatorColor}" />
+    <SolidColorBrush x:Key="PopupBackgroundBrush" Color="{DynamicResource PopupBackgroundColor}" />
+    <SolidColorBrush x:Key="CheckBoxCheckMarkBkBrush" Color="#FF1D1D1D" />
+    <SolidColorBrush x:Key="DataChangeNotifBrush" Color="{DynamicResource DataChangeNotifColor}" />
+
+    <!-- Discord Status & Accent Brushes -->
+    <SolidColorBrush x:Key="AccentPurpleBrush" Color="{DynamicResource PurpleColor}" />
+    <SolidColorBrush x:Key="AccentPurpleHoverBrush" Color="{DynamicResource PurpleHoverColor}" />
+    <SolidColorBrush x:Key="AccentCyanBrush" Color="{DynamicResource CyanColor}" />
+    <SolidColorBrush x:Key="AccentPinkBrush" Color="{DynamicResource PinkColor}" />
+    <SolidColorBrush x:Key="AccentGreenBrush" Color="{DynamicResource GreenColor}" />
+    <SolidColorBrush x:Key="PositiveRatingBrush" Color="{DynamicResource GreenColor}" />
+    <SolidColorBrush x:Key="NegativeRatingBrush" Color="{DynamicResource PinkColor}" />
+    <SolidColorBrush x:Key="MixedRatingBrush" Color="{DynamicResource YellowColor}" />
+    <SolidColorBrush x:Key="WarningBrush" Color="{DynamicResource PinkColor}" />
+
+    <SolidColorBrush x:Key="ExpanderBackgroundBrush" Color="#FF1D1D1D" />
+    <!-- Notice key spelling WindowBackgourndBrush as required by Playnite -->
+    <SolidColorBrush x:Key="WindowBackgourndBrush" Color="#FF141414" />
+</ResourceDictionary>

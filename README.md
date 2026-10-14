@@ -2,8 +2,6 @@
 
 A clean, terminal-inspired desktop theme for [Playnite](https://playnite.link/) based on the **system24** aesthetic.
 
-![Theme Preview](Images/applogo.png)
-
 ---
 
 ## Features

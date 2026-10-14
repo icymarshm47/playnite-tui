@@ -1,5 +1,6 @@
 # playnite-tui
 
+Vibecode attention.
 A clean, terminal-inspired desktop theme for [Playnite](https://playnite.link/) based on the **system24** aesthetic.
 
 ---
@@ -32,6 +33,7 @@ A clean, terminal-inspired desktop theme for [Playnite](https://playnite.link/) 
 ## Credits & Acknowledgements
 - **[refact0r](https://github.com/refact0r)** — Creator of the original [system24](https://github.com/refact0r/system24) theme.
 - **[JosefNemec](https://github.com/JosefNemec)** — Creator of [Playnite](https://github.com/JosefNemec/Playnite).
+- **Gemini** — Code full vibecoded.
 
 ---
 
